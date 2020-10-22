@@ -2,6 +2,21 @@
 
 In this branch, we discuss and go over the procedure on how to set up an Internal ROOT CA to sign various certificates required and used across different examples on my YouTube Channel @ [IAM jaTinder Singh](https://www.youtube.com/channel/UCncKTrfBUAlPjk0oKQ66rRg/). Using an Internal ROOT CA for these examples instead of individual self-signed certificates allows us to better establish and manage trust, and avoid browser warnings. If we didn’t use this approach, we would have to add those self-signed certificates individually to every trust store in our architecture.
 
+## Quick Set-Up
+
+To avoid having to run individual commands, follow the below steps to quickly set-up certificates.
+
+* Run `./create-root-ca.sh` under `root-ca` to create Internal Root CA.
+
+* Run `./create-am-pkcs12-store.sh` under `am` to create AM certificate.
+
+* Run `./create-userds-pkcs12-store.sh` under `userds` to create User DS certificate.
+
+* Run `./create-configds-pkcs12-store.sh` under `configds` to create Config DS certificate.
+
+
+**Note**: Password is `changeit` for ROOT CA Private Key.
+
 ## Internal ROOT CA
 
 Using the below steps to create Internal ROOT CA keys:
