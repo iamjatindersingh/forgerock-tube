@@ -1,0 +1,10 @@
+[req]
+distinguished_name = req_distinguished_name
+prompt = no
+[req_distinguished_name]
+C = CA
+ST = ON
+L = Toronto
+O = Sqoop Data Inc.
+OU = User Directory Services
+CN = userds.sqoopdata.local
