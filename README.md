@@ -1,11 +1,15 @@
-# ForgeRock Tube
+# Introduction
 
-ForgeRock Tube is a repository containing companion source-code for the videos published on my YouTube Channel @ [IAM jaTinder Singh](https://www.youtube.com/channel/UCncKTrfBUAlPjk0oKQ66rRg/).
+In this branch, we'll go through the steps to set-up minimal ForgeRock architecture that we will use in other branches/videos to test various IAM features available within ForgeRock Identity Platform. 
 
-# How to use this repo?
+## Video Link 
 
-The source-code for each video is checked out and isolated through git branches. When you clone and checkout an individual branch, it will have a README with branch description and link to a video.
+TBA
 
-# Questions
+## Architecture
 
-For any questions, feedback or help, you can reach me at jsingh@sqoopdata.com.
+![Lab ForgeRock Architecture](architecture.png)
+
+# Disclaimer
+
+The source-code and configuration in this repository is in no way intended for direct production environment, and is provided for the sole purpose to demonstrate and teach various features available within ForgeRock Identity Platform. 
