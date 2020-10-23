@@ -9,3 +9,7 @@ The source-code for each video is checked out and isolated through git branches.
 # Questions
 
 For any questions, feedback or help, you can reach me at jsingh@sqoopdata.com.
+
+# Disclaimer
+
+The source-code and configuration in this repository is in no way intended for direct production environment, and is provided for the sole purpose to demonstrate and teach various features available within ForgeRock Identity Platform.
