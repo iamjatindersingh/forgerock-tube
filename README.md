@@ -1,6 +1,6 @@
-# ForgeRock Tube
+# ForgeTube
 
-ForgeRock Tube is a repository containing companion source-code for the videos published on my YouTube Channel @ [IAM jaTinder Singh](https://www.youtube.com/channel/UCncKTrfBUAlPjk0oKQ66rRg/).
+ForgeTube is a repository containing companion source-code for the videos published on my YouTube Channel @ [IAM jaTinder Singh](https://www.youtube.com/channel/UCncKTrfBUAlPjk0oKQ66rRg/).
 
 # How to use this repo?
 
